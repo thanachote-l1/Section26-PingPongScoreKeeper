@@ -6,6 +6,10 @@ div#container {
     margin-bottom: 25px;
 }
 
+body {
+    font-family: Helvetica, Arial;
+}
+
 img {
     /* display: block; */
     margin-left: auto;
@@ -42,4 +46,18 @@ button {
 
 .winner {
     color: rgb(44, 202, 94);
+}
+
+.reset_dominate {
+    background-color: rgb(191, 225, 253);
+}
+
+button {
+    transition-duration: 0.25s;
+}
+
+button:hover {
+    background-color: rgb(32, 63, 88);
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
