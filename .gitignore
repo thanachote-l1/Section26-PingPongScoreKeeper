@@ -1,0 +1,3 @@
+# Ignore All .DS_Store file, which is file to store folder's properties
+
+*.DS_Store

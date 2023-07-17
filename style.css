@@ -35,6 +35,7 @@ button {
     text-align: center;
 }
 
+/* Add to respective span. If win, add classlist "winner", then add "loser"  */
 .loser {
     color: rgb(245, 77, 88);
 }

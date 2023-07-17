@@ -21,6 +21,7 @@ player1Button.addEventListener("click", () => {
     if (isThisPlayerWin) {
         console.log("Win")
         player1PointDisplay.classList.add("winner")
+        player2PointDisplay.classList.add("loser")
     }
 });
 // ref: element.classList.contains(className);
